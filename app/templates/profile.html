@@ -3,24 +3,25 @@
 {% block main %}
 
 <h1 class="page-header">Profile</h1>
-   	<div>
-
+   	<div id=dimg>
+        <img src="{{ url_for('static', filename='ob1.jpg') }}"> </img>
    	</div>
 
-   	<div>
-    	<div>
+   	<div id=dinfo>
+     	<div id=name>
+        	<p><b> {{ name }} </b></p>
+    	</div>   	
+    	<div id=date>
         	<p>Today's date is </p>
     	</div>
-    	<div>
-        	<p>{{ name }} </p>
-    	</div>
-    	<div>
-        	<p>Username: RichardG</p>
-        	<p>ID Number: 620018370</p>
-        	<p>Age: 26</p>
-        	<p>Gender: Male</p>
+
+    	<div id=pdetails>
+        	<p><b>Username:</b> RichardG</p>
+        	<p><b>ID Number:</b> 620018370</p>
+        	<p><b>Age:</b> 26</p>
+        	<p><b>Gender:</b> Male</p>
     	</div> 
-     	<div>
+     	<div id=desc>
      	   <p>I am a INFO3180 Student</p>
     	</div>
 	</div>
